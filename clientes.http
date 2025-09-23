@@ -1,0 +1,14 @@
+### GET clientes
+GET https://localhost:5001/api/clientes
+
+### POST cliente
+POST https://localhost:5001/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Filipe",
+  "email": "filipe@email.com",
+  "telefone": "61999999999",
+  "endereco": "Brasília",
+  "senha": "123456"
+}

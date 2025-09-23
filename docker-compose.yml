@@ -1,0 +1,26 @@
+version: '3.8' # Especifica a versão do docker-compose
+
+services:
+  db:
+    image: postgres:15 # A imagem oficial do PostgreSQL, versão 15.
+    container_name: reserva-db # Nome do nosso contêiner.
+    restart: always # Garante que o contêiner reinicie se cair.
+    
+    # Variáveis de ambiente para configurar o PostgreSQL
+    environment:
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=reservadb
+      
+    # Mapeia a porta 5432 do contêiner para a 5433 da sua máquina.
+    # Usamos 5433 para não conflitar com um possível PostgreSQL local.
+    ports:
+      - "5433:5432"
+      
+    # Garante que os dados não sejam perdidos quando o contêiner for recriado.
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+# Define o volume para persistência dos dados
+volumes:
+  postgres_data:

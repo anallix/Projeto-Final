@@ -1,0 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using ReservaApi.Models;
+
+namespace ReservaApi.Data
+{
+    public class RestauranteContext : DbContext
+    {
+        public RestauranteContext(DbContextOptions<RestauranteContext> options) : base(options) { }
+
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Reserva> Reservas { get; set; }
+        public DbSet<Mesa> Mesas { get; set; }
+        public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<Notificacao> Notificacoes { get; set; }
+    }
+}
