@@ -1,66 +1,78 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ReservaApi.Models;
 using ReservaApi.Data;
+using ReservaApi.Models;
 
 namespace ReservaApi.Controllers
-
 {
     [ApiController]
-    [Route("api/[controller]")] // Define a rota base como /api/clientes
+    [Route("api/[controller]")]
     public class ClientesController : ControllerBase
     {
         private readonly RestauranteContext _context;
 
-        // O 'contexto' do banco de dados é injetado aqui pelo ASP.NET Core
         public ClientesController(RestauranteContext context)
         {
             _context = context;
         }
 
-        // GET: api/clientes
-        // Retorna uma lista de todos os clientes
+        /// <summary>
+        /// Busca todos os clientes cadastrados.
+        /// </summary>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
         {
             return await _context.Clientes.ToListAsync();
         }
 
-        // GET: api/clientes/5
-        // Retorna um cliente específico pelo seu Id
+        /// <summary>
+        /// Busca um cliente específico pelo seu ID.
+        /// </summary>
+        /// <param name="id">O ID do cliente a ser buscado.</param>
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
             var cliente = await _context.Clientes.FindAsync(id);
 
             if (cliente == null)
             {
-                return NotFound(); // Retorna erro 404 se não encontrar
+                return NotFound();
             }
 
             return cliente;
         }
 
-        // POST: api/clientes
-        // Cria um novo cliente
+        /// <summary>
+        /// Cadastra um novo cliente.
+        /// </summary>
+        /// <param name="cliente">Objeto com os dados do cliente.</param>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
         {
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
 
-            // Retorna um status 201 (Created) com o novo cliente e um link para ele
             return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, cliente);
         }
 
-        // PUT: api/clientes/5
-        // Atualiza um cliente existente
+        /// <summary>
+        /// Atualiza os dados de um cliente existente.
+        /// </summary>
+        /// <param name="id">O ID do cliente a ser atualizado.</param>
+        /// <param name="cliente">Objeto com os novos dados do cliente.</param>
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> PutCliente(int id, Cliente cliente)
         {
             if (id != cliente.Id)
             {
-                return BadRequest(); // Retorna erro 400 se os Ids não baterem
+                return BadRequest("O ID da URL não corresponde ao ID do cliente.");
             }
 
             _context.Entry(cliente).State = EntityState.Modified;
@@ -81,12 +93,16 @@ namespace ReservaApi.Controllers
                 }
             }
 
-            return NoContent(); // Retorna status 204 (No Content) indicando sucesso
+            return NoContent();
         }
 
-        // DELETE: api/clientes/5
-        // Deleta um cliente
+        /// <summary>
+        /// Exclui um cliente.
+        /// </summary>
+        /// <param name="id">O ID do cliente a ser excluído.</param>
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteCliente(int id)
         {
             var cliente = await _context.Clientes.FindAsync(id);

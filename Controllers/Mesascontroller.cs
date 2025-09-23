@@ -1,13 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ReservaApi.Models;
 using ReservaApi.Data;
+using ReservaApi.Models;
 
 namespace ReservaApi.Controllers
-
 {
     [ApiController]
-    [Route("api/[controller]")] // Rota base: /api/mesas
+    [Route("api/[controller]")]
     public class MesasController : ControllerBase
     {
         private readonly RestauranteContext _context;
@@ -17,29 +16,41 @@ namespace ReservaApi.Controllers
             _context = context;
         }
 
-        // GET: api/mesas
+        /// <summary>
+        /// Busca todas as mesas cadastradas.
+        /// </summary>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<Mesa>>> GetMesas()
         {
             return await _context.Mesas.ToListAsync();
         }
 
-        // GET: api/mesas/5
+        /// <summary>
+        /// Busca uma mesa específica pelo seu ID.
+        /// </summary>
+        /// <param name="id">O ID da mesa a ser buscada.</param>
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Mesa>> GetMesa(int id)
         {
             var mesa = await _context.Mesas.FindAsync(id);
 
             if (mesa == null)
             {
-                return NotFound(); // Mensagem: "Não encontrado"
+                return NotFound();
             }
 
             return mesa;
         }
 
-        // POST: api/mesas
+        /// <summary>
+        /// Cadastra uma nova mesa.
+        /// </summary>
+        /// <param name="mesa">Objeto com os dados da nova mesa.</param>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<ActionResult<Mesa>> PostMesa(Mesa mesa)
         {
             _context.Mesas.Add(mesa);
@@ -48,13 +59,20 @@ namespace ReservaApi.Controllers
             return CreatedAtAction(nameof(GetMesa), new { id = mesa.Id }, mesa);
         }
 
-        // PUT: api/mesas/5
+        /// <summary>
+        /// Atualiza os dados de uma mesa existente.
+        /// </summary>
+        /// <param name="id">O ID da mesa a ser atualizada.</param>
+        /// <param name="mesa">Objeto com os novos dados da mesa.</param>
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> PutMesa(int id, Mesa mesa)
         {
             if (id != mesa.Id)
             {
-                return BadRequest(); // Mensagem: "Pedido inválido"
+                return BadRequest("O ID da URL não corresponde ao ID da mesa.");
             }
 
             _context.Entry(mesa).State = EntityState.Modified;
@@ -75,11 +93,16 @@ namespace ReservaApi.Controllers
                 }
             }
 
-            return NoContent(); // Mensagem: "Sucesso, sem conteúdo para retornar"
+            return NoContent();
         }
 
-        // DELETE: api/mesas/5
+        /// <summary>
+        /// Exclui uma mesa.
+        /// </summary>
+        /// <param name="id">O ID da mesa a ser excluída.</param>
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteMesa(int id)
         {
             var mesa = await _context.Mesas.FindAsync(id);
