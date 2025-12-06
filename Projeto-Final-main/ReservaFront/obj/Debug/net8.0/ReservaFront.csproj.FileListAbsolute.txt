@@ -1,0 +1,64 @@
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\appsettings.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.staticwebassets.runtime.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.exe
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.deps.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.runtimeconfig.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.dll
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.pdb
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.AssemblyInfoInputs.cache
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.AssemblyInfo.cs
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.csproj.CoreCompileInputs.cache
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.RazorAssemblyInfo.cache
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.RazorAssemblyInfo.cs
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.sourcelink.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets\msbuild.ReservaFront.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets\msbuild.build.ReservaFront.props
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReservaFront.props
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReservaFront.props
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\scopedcss\bundle\ReservaFront.styles.css
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\scopedcss\projectbundle\ReservaFront.bundle.scp.css
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.dll
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\refint\ReservaFront.dll
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.pdb
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.genruntimeconfig.cache
+C:\Users\Edimar\Documents\coisas de illana\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ref\ReservaFront.dll
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\appsettings.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.staticwebassets.runtime.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.staticwebassets.endpoints.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.exe
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.deps.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.runtimeconfig.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.dll
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\bin\Debug\net8.0\ReservaFront.pdb
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.AssemblyInfoInputs.cache
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.AssemblyInfo.cs
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.csproj.CoreCompileInputs.cache
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.RazorAssemblyInfo.cache
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.RazorAssemblyInfo.cs
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\scopedcss\bundle\ReservaFront.styles.css
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\scopedcss\projectbundle\ReservaFront.bundle.scp.css
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.dll
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\refint\ReservaFront.dll
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.pdb
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.genruntimeconfig.cache
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ref\ReservaFront.dll
+C:\Users\filip\Downloads\Projeto-Final-main (2)\Projeto-Final-main\ReservaFront\obj\Debug\net8.0\ReservaFront.sourcelink.json

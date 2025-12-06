@@ -1,0 +1,47 @@
+@model List<ReservaFront.Models.Mesa>
+@{
+    ViewData["Title"] = "Mesas";
+}
+
+<link rel="stylesheet" href="~/css/mesas.css" asp-append-version="true" />
+
+<section class="page-box">
+    <div class="page-head">
+        <h2>Mesas</h2>
+        <p>Escolha uma mesa para ver detalhes e reservar.</p>
+    </div>
+
+    <div class="grid">
+       @foreach (var m in Model)
+{
+    var badgeClass = m.Disponivel ? "badge ok" : "badge off";
+    var badgeText  = m.Disponivel ? "Disponível" : "Indisponível";
+
+    <div class="card">
+        <div class="card-top">
+            <div class="mesa-num">Mesa @m.Numero</div>
+            <span class="@badgeClass">@badgeText</span>
+        </div>
+
+        <div class="card-body">
+            <div class="info">
+                <span class="label">Capacidade:</span>
+                <span class="value">@m.Capacidade lugares</span>
+            </div>
+        </div>
+
+        <div class="card-actions">
+            @if (m.Disponivel)
+            {
+                <a class="btn" href="/Reservas/Cadastro?mesaId=@m.Id">Reservar</a>
+            }
+            else
+            {
+                <button class="btn disabled" disabled>Indisponível</button>
+            }
+        </div>
+    </div>
+}
+
+    </div>
+</section>

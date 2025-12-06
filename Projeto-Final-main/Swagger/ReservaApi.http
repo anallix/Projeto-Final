@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+@ReservaApi_HostAddress = http://localhost:5271
+
+GET {{ReservaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+=======
+@ReservaApi_HostAddress = http://localhost:5271
+
+GET {{ReservaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+>>>>>>> 4184d0a977c1efb6b3a1709a7eeabcca9feaf050

@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<link rel="stylesheet" href="~/css/cadastro.css" />
+
+<div class="cadastro-container">
+    <h2 class="titulo">Entrar</h2>
+
+    @if (ViewBag.Erro != null)
+    {
+        <div style="margin-bottom:12px; padding:10px; border-radius:8px; background:#fff0f3; color:#7a0e2a; text-align:center;">
+            @ViewBag.Erro
+        </div>
+    }
+
+    <form asp-controller="Auth" asp-action="Login" method="post" class="form-box">
+        <label>Nome</label>
+        <input type="text" name="nome" required />
+
+        <label>Senha</label>
+        <input type="password" name="senha" required />
+
+        <button type="submit" class="btn-enviar">Entrar</button>
+
+        <p style="margin-top:14px; text-align:center;">
+            Ainda não tem conta?
+            <a href="/Clientes/Cadastro" style="color:#7a0e2a; font-weight:bold;">Cadastre-se</a>
+        </p>
+    </form>
+</div>

@@ -1,0 +1,32 @@
+@model ReservaFront.Models.Cliente
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<link rel="stylesheet" href="~/css/cadastro.css" />
+
+<div class="cadastro-container">
+
+    <h2 class="titulo">Criar Conta</h2>
+
+    <form asp-action="Cadastro" method="post" class="form-box">
+
+        <label asp-for="Nome"></label>
+<input asp-for="Nome" required />
+
+<label asp-for="Email"></label>
+<input asp-for="Email" required />
+
+<label asp-for="Telefone"></label>
+<input asp-for="Telefone" required />
+
+<label asp-for="Senha"></label>
+<input asp-for="Senha" type="password" required />
+
+
+        <button type="submit" class="btn-enviar">Cadastrar</button>
+
+    </form>
+
+</div>

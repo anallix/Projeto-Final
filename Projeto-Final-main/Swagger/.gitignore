@@ -1,0 +1,33 @@
+# Arquivos de dependências e pacotes
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Arquivos gerados pelo Rider
+.idea/
+*.sln.iml
+
+# Arquivos de usuário do Visual Studio e VS Code
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Arquivos de configuração local (NÃO ENVIE SENHAS!)
+appsettings.Development.json
+secrets.json

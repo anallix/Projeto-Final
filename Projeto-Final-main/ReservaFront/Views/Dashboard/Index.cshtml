@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Painel";
+    var nome = Context.Session.GetString("usuarioNome") ?? "Cliente";
+}
+
+<link rel="stylesheet" href="~/css/dashboard.css" />
+
+<div class="dash-bg">
+    <div class="dash-overlay">
+        <h2 class="dash-title">Bem-vindo(a), @nome</h2>
+        <p class="dash-subtitle">O que você quer fazer agora?</p>
+
+        <div class="dash-actions">
+            <a class="dash-btn" href="/Mesas/Index">Mesas</a>
+            <a class="dash-btn" href="/Reservas/Cadastro">Fazer reserva</a>
+            <a class="dash-btn" href="/Reservas/Minhas">Minhas reservas</a>
+        </div>
+    </div>
+</div>

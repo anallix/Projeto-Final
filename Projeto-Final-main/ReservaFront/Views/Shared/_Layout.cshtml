@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ReservaFront</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ReservaFront.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a class="logo" asp-controller="Home" asp-action="Index">
+                Reserva<span>Front</span>
+            </a>
+
+            <nav class="menu">
+    <a asp-controller="Home" asp-action="Index">Home</a>
+    <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <a asp-controller="Clientes" asp-action="Index">Clientes</a>
+    <a asp-controller="Mesas" asp-action="Index">Mesas</a>
+    <a asp-controller="Reservas" asp-action="Index">Reservas</a>
+</nav>
+
+        </div>
+    </header>
+
+    <main class="page">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <div class="footer-brand">ReservaFront</div>
+                <div class="footer-muted">Sistema de reservas de restaurante • 2025</div>
+            </div>
+
+            <div class="footer-right">
+                <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

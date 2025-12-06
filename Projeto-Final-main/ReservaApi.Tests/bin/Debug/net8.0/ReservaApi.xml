@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReservaApi</name>
+    </assembly>
+    <members>
+        <member name="T:ReservaApi.Migrations.VersaoSqlite">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.VersaoSqlite.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.VersaoSqlite.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.VersaoSqlite.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ReservaApi.Migrations.AtualizacaoSenha">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.AtualizacaoSenha.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.AtualizacaoSenha.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.AtualizacaoSenha.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ReservaApi.Migrations.AddDisponivelToMesa">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.AddDisponivelToMesa.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.AddDisponivelToMesa.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ReservaApi.Migrations.AddDisponivelToMesa.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

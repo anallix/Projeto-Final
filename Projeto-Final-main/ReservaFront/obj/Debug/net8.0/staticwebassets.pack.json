@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ReservaFront.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ReservaFront.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\wwwroot\\css\\cadastro.css",
+      "PackagePath": "staticwebassets\\css\\cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\wwwroot\\css\\mesas.css",
+      "PackagePath": "staticwebassets\\css\\mesas.css"
+    },
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Edimar\\Documents\\coisas de illana\\Projeto-Final-main\\ReservaFront\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReservaFront.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ReservaFront.props",
+      "PackagePath": "build\\ReservaFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ReservaFront.props",
+      "PackagePath": "buildMultiTargeting\\ReservaFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ReservaFront.props",
+      "PackagePath": "buildTransitive\\ReservaFront.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
