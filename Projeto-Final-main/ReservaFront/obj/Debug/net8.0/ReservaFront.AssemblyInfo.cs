@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReservaFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+969f4b01b1a6b0bef14376c11621ad6946344e64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cbf9fadf71f7bf7bc6507724cd7faf0ff0d77f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReservaFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReservaFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

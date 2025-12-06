@@ -8,16 +8,18 @@ Bem-vindo ao repositório oficial do projeto. Este é um sistema completo desenv
 
 ## 📚 Documentação Completa
 
-Abaixo você encontra todos os artefatos de engenharia e manuais do projeto, organizados para facilitar o entendimento técnico e funcional.
+Abaixo você encontra todos os artefatos de engenharia e manuais do projeto.
 
 | Tipo | Documento | Descrição |
 | :--- | :--- | :--- |
-| 📖 | **[Manual do Usuário](docs/MANUAL_DO_USUARIO.md)** | Guia visual com prints das telas e passo a passo de uso. |
-| 🏗️ | **[Documentação Técnica](docs/DOCUMENTACAO_TECNICA.md)** | Detalhes da arquitetura, tecnologias e análise de requisitos. |
-| 📊 | **[Diagrama do Banco (DER)](docs/diagrama-banco.pdf)** | Modelagem conceitual das tabelas e relacionamentos. |
-| 🔄 | **[Casos de Uso](docs/diagrama-casos-uso.pdf)** | Diagrama de atores e funcionalidades do sistema. |
-| 📋 | **[Especificação (ERS)](docs/especificacao-requisitos.pdf)** | Documento original de levantamento de requisitos e regras. |
-| 📅 | **[Planilha de Planejamento](https://1drv.ms/x/c/9865171190f1e44d/EfkwxMMs-tlDtHei7zrMzy8Bcjg7Bc98bJCXK574qxfXsw?e=lFQIXZ)** | Cronograma e Backlog do projeto (Excel). |
+| 📖 | **[Manual do Usuário](docs/manual-usuario.md)** | Guia de uso do sistema. |
+| 🏗️ | **[Documentação Técnica](docs/documentacao-tecnica.md)** | Arquitetura e tecnologias. |
+| 📋 | **[Regras de Negócio (BRD)](docs/regras-negocio.pdf)** | Requisitos de Negócio Detalhados. |
+| 📄 | **[Especificação (ERS)](docs/especificacao-requisitos.pdf)** | Especificação de Requisitos de Software. |
+| 📊 | **[Diagrama do Banco (DER)](docs/diagrama-banco.pdf)** | Modelagem de dados. |
+| 🔄 | **[Casos de Uso](docs/casos-uso.pdf)** | Diagrama de funcionalidades. |
+| 🖼️ | **[Diagrama de Sequência](docs/diagrama-sequencia.png)** | Fluxo visual de reserva (Imagem). |
+| 📅 | **[Planilha de Planejamento](SEU_LINK_DO_EXCEL)** | Cronograma (Excel). |
 
 ---
 
